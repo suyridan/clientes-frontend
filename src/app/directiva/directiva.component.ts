@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./directiva.component.css"]
 })
 export class DirectivaComponent {
-  listaCurso: strong[] = ["Typescript", "JavaScript", "Java SE", "C#", "PHP"];
+  listaCurso: string[] = ["Typescript", "JavaScript", "Java SE", "C#", "PHP"];
   habilitar: boolean = false;
 
   setHabilitar(): void {
